@@ -1,4 +1,7 @@
 package com.finguard.finguard.model;
 
-public class TransactionState {
+public enum TransactionState {
+    PENDING,
+    FLAGGED,
+    CLEARED
 }
